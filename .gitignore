@@ -40,3 +40,4 @@ coverage.xml
 Thumbs.db
 celerybeat-schedule
 celerybeat.pid
+dvenv/
