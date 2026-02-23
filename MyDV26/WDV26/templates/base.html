@@ -10,7 +10,40 @@
         
     </head>
     <header>
-        This is my Header
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <span class="fw-bold">DATAVERSE</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#mainNavbar" 
+            aria-controls="mainNavbar" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto gap-2 py-2 py-lg-0">
+            <li class="nav-item">
+                <a class="btn btn-outline-light" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-light" href="#">Data University</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-light" href="#">Data Lab</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-light" href="#">Data for Business</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-light" href="#">Glossary</a>
+            </li>
+        </ul>
+    </div>
+</nav>
     </header>
     <body>
         {% block content %}
