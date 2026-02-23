@@ -1,3 +1,11 @@
+:root {
+    --bs-primary : #0c0116;
+    --bs-secondary : #5c6bff;
+    --bs-third : #f8F9fa;
+
+}
+
+
 body {
-    background-color: red;
+    background-color: var(--bs-primary);
 }
